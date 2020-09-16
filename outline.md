@@ -22,7 +22,7 @@ The code used to select locations can be found here: [https://github.com/bwlambe
 - Training and testing data were separated in the following two ways:
 In the first approach a random 10% of pixels from labeled polygons were used to train the classifier, and the classifier was tested on the remaining 90% of pixels.
 
-The behavior of classifiers built with this approach can then be used to diagnose the impact  
+The behavior of classifiers built with this approach can then be used to determine the feasibility of Eucalyptus detection under favorable conditions, and to diagnose the impact of ecosystem "patchiness" on classification accuracy.  The following image plots balanced accuracy versus Cohen's Kappa for all programatically selected locations:
 ![alt text](AccuracyKappa.png)
 
 In the second approach the classifier was trained on all eucalyptus and non-eucalyptus pixels in a given location and tested on all other sample locations.
