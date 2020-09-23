@@ -14,13 +14,11 @@ Direct comparison of 4-band Planet imagery and 11-band LandSat8 imagery in the H
 
 Below, classification of all pixels from the LandSat8 imagery is displayed, and on the right, all mis-classified pixels. Pixels classified as Eucalyptus are presented in green, and pixels classified as non-Eucalyptus are presented in blue.
 
-<img src="LandSat8_FullClassification.png" width="445" height="650" alt="">
-<img src="LandSat8_MisclassifiedPixels.png" width="445" height="650" alt="">
+<img src="LandSat8_FullClassification.png" width="445" height="650" alt=""><img src="LandSat8_MisclassifiedPixels.png" width="445" height="650" alt="">
 
 Below, classification of all pixels from the LandSat8 imagery is displayed, and on the right, all mis-classified pixels.
 
-<img src="PlanetLabs_FullClassification.png" width="445" height="650" alt="">
-<img src="PlanetLabs_MisclassifiedPixels.png" width="445" height="650" alt="">
+<img src="PlanetLabs_FullClassification.png" width="445" height="650" alt=""><img src="PlanetLabs_MisclassifiedPixels.png" width="445" height="650" alt="">
 
 
 This comparison can be examined here: [https://github.com/bwlambert/Eucalyptus_GLMClassifier/blob/master/HerbertonPlanetLandSat8.ipynb](https://github.com/bwlambert/Eucalyptus_GLMClassifier/blob/master/HerbertonPlanetLandSat8.ipynb) 
