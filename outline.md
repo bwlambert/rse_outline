@@ -66,6 +66,7 @@ The Gaussian Maximum Likelihood Classifier appears to out-perform the Mahalanobi
 <img src="GMLC_Mahalanobis.png" width="324" height="578" alt="">
 
 Additionally, Tanimioto distances between locations correlate more strongly with accuracies produced by the Gaussian Maximum Likelihood Classifier than the Mahalanobis Distance Classifier:
+
 <img src="corrmatrix.png" width="500" height="400" alt="">
 
 Data for the figures above is available here: [https://github.com/bwlambert/rse_outline/blob/master/cross_location_classification_data_Mahalanobis.csv](https://github.com/bwlambert/rse_outline/blob/master/cross_location_classification_data_Mahalanobis.csv) 
