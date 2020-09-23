@@ -50,7 +50,7 @@ The behavior of classifiers built with this approach can then be used to determi
 
 In the second approach the classifier was trained on all eucalyptus and non-eucalyptus pixels in a given location and tested on all other sample locations.  This approach permits a determination of distances across which classifiers retain accuracy and an examination of which attributes correlate with classification accuracy across space.  In addition to accuracy scores obtained between locations, Tanimoto similiarity scores were determined between each location for shared regional ecosystem codes and shared species.  Tanimoto scores for shared regional ecosystem codes correlate more strongly with classification accuracy than Tanimoto scores for species. Summary data for this approach is available here: [https://github.com/bwlambert/rse_outline/blob/master/cross_location_classification_data.csv](https://github.com/bwlambert/rse_outline/blob/master/cross_location_classification_data.csv) 
 
-<img src="crossloc_ba_plot.png" width="800" height="800" alt="">
+<img src="crossloc_ba_plot.png" width="600" height="600" alt="">
 
 Code generating figures for most of these comparisons can be found here: [https://github.com/bwlambert/Eucalyptus_GLMClassifier/blob/master/Eucalyptus-SpectralAngle-GLM-Classifier-Summary.ipynb](https://github.com/bwlambert/Eucalyptus_GLMClassifier/blob/master/Eucalyptus-SpectralAngle-GLM-Classifier-Summary.ipynb)
 
@@ -60,6 +60,15 @@ Methods implemented by SpectralPython [https://github.com/spectralpython/spectra
 - [X] Gaussian Maximum Likelihood Classification (Empiricaly the best performing and undergirds 
 - [X] Mahalanobis Distance Classifier
 - [ ] Modified Spectral Angle Method
+
+The Gaussian Maximum Likelihood Classifier appears to out-perform the Mahalanobis Distance Classifier:
+
+<img src="GMLC_Mahalanobis.png" width="324" height="578" alt="">
+
+Additionally, Tanimioto distances between locations correlate more strongly with accuracies produced by the Gaussian Maximum Likelihood Classifier than the Mahalanobis Distance Classifier:
+<img src="corrMatrix.png" width="500" height="400" alt="">
+
+Data for the figures above is available here: [https://github.com/bwlambert/rse_outline/blob/master/cross_location_classification_data_Mahalanobis.csv](https://github.com/bwlambert/rse_outline/blob/master/cross_location_classification_data_Mahalanobis.csv) 
 
 Methods implemented by Scikit-Learn [https://github.com/scikit-learn/scikit-learn](https://github.com/scikit-learn/scikit-learn)
 - [X] Naive Bayes
