@@ -16,7 +16,7 @@ Below, classification of all pixels from the LandSat8 imagery is displayed, and 
 
 <img src="LandSat8_FullClassification.png" width="445" height="650" alt=""><img src="LandSat8_MisclassifiedPixels.png" width="445" height="650" alt="">
 
-Below, classification of all pixels from the LandSat8 imagery is displayed, and on the right, all mis-classified pixels.
+Below, classification of all pixels from the Planet Labs imagery is displayed, and on the right, all mis-classified pixels.
 
 <img src="PlanetLabs_FullClassification.png" width="445" height="650" alt=""><img src="PlanetLabs_MisclassifiedPixels.png" width="445" height="650" alt="">
 
